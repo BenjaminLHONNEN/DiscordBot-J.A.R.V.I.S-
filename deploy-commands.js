@@ -11,16 +11,12 @@ for (const file of commandFiles) {
     commands.push(command.data.toJSON());
 }
 
-
-//  "guildId": "250205524967030784"
-//  "guildId": "850313992999665714"
-
 const rest = new REST({ version: '9' }).setToken(token);
 
 (async () => {
     try {
         await rest.put(
-            Routes.applicationGuildCommands(clientId, guildId),
+            Routes.applicationCommands(clientId, guildId),
             { body: commands },
         );
 

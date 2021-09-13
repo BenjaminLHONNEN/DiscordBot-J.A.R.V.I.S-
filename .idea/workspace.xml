@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1868254a-d2c8-4cb9-9e9f-85efe457889b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commands/join.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-commands.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631535882947</updated>
       <workItem from="1631535885749" duration="2535000" />
+      <workItem from="1631539754112" duration="38000" />
     </task>
     <servers />
   </component>
